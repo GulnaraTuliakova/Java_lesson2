@@ -40,7 +40,7 @@ public class lesson2_7 {
         System.out.println(end - start);
 
 
-  //  Замена String  и счетчик - !!!!! Не меняется "=" на "равно"
+  //  Замена String  и счетчик 
   start = System.currentTimeMillis();
   String anotherStr = new String(str);
 
