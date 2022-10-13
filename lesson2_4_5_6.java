@@ -1,4 +1,4 @@
-// 4. Дано два числа, например 3 и 56, необходимо составить следующие строки: 
+//  Дано два числа, например 3 и 56, необходимо составить следующие строки: 
 // 3 + 56 = 59 3 – 56 = -53 3 * 56 = 168 Используем метод StringBuilder.append().
 
 public class lesson2_4_5_6 {
@@ -35,7 +35,7 @@ public class lesson2_4_5_6 {
         newStr3.append(" = ");
         newStr3.append(multXY);
 
-// 5.  Замените символ “=” на слово “равно”. 
+//   Замените символ “=” на слово “равно”. 
 // Используйте методы StringBuilder.insert(),StringBuilder.deleteCharAt().
 
         System.out.println(newStr3);
@@ -55,7 +55,7 @@ public class lesson2_4_5_6 {
         }
         System.out.println(newStr2);
 
-//6 *Замените символ “=” на слово “равно”. Используйте методы StringBuilder.replace(). 
+// *Замените символ “=” на слово “равно”. Используйте методы StringBuilder.replace(). 
 
         StringBuilder anotherString3 = new StringBuilder(newStr3);
         for (int i = 0; i < newStr3.length(); i++) {
