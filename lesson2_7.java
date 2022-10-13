@@ -45,16 +45,15 @@ public class lesson2_7 {
   String anotherStr = new String(str);
 
   for (int j = 0; j < anotherStr.length(); j++) {
-        anotherStr.replace("=", "равно");
-      }
-  System.out.println(anotherStr);
+        anotherStrBil.toString().replace("=", "равно");}
+  System.out.println(anotherStrBil);
   end = System.currentTimeMillis();
   System.out.println(end - start);
 
     
 }}   
                
-          
+ 
 
        
 
